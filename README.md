@@ -6,7 +6,7 @@ Get APP ID and API HASH from [HERE](https://my.telegram.org) and BOT TOKEN from 
 
 [![Get string session](https://repl.it/badge/github/sandy1709/sandeep1709)](https://generatestringsession.sandeep1709.repl.run/)
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fmuklasss%2Fcatbotuserbot%2Ftree%2Fbugs&template=https%3A%2F%2Fgithub.com%2Fsandy1709%2Fcatuserbot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fmuklasss%2Fcatbotuserbot%2Ftree%2Fbugs&template=https%3A%2F%2Fgithub.com%2Fmuklasss%2Fcatbotuserbot)
 <p align="center">
   <a href="https://github.com/muklasss/catbotuserbot/fork">
     <img src="https://img.shields.io/github/forks/muklasss/catbotuserbot?label=Fork&style=social">
