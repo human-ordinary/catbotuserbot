@@ -167,7 +167,7 @@ async def _(event):
             afk_time = datetime.now()
         USERAFK_ON = f"on: {reason}"
         if reason:
-            await edit_delete(event, f"`Saya sedang OFFLINE! because ~` {reason}", 5)
+            await edit_delete(event, f"`Saya sedang OFFLINE! karena ~` {reason}", 5)
         else:
             await edit_delete(event, f"`Saya sedang OFFLINE! `", 5)
         if BOTLOG:
