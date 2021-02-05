@@ -70,7 +70,7 @@ async def set_group_photo(gpic):
     if gpic.fwd_from:
         return
     if not gpic.is_group:
-        await edit_or_reply(gpic, "`I don't think this is a group.`")
+        await edit_or_reply(gpic, "`Saya tidak berpikir ini adalah grup.`")
         return
     replymsg = await gpic.get_reply_message()
     await gpic.get_chat()
@@ -214,7 +214,7 @@ async def ban(bon):
             await reply.delete()
     except BadRequestError:
         await catevent.edit(
-            "`I dont have message nuking rights! But still he is banned!`"
+            "`Saya tidak memiliki hak pesan nuking! Tapi tetap saja dia di ban`"
         )
         return
     if reason:
@@ -284,7 +284,7 @@ async def startmute(event):
         chat_id = event.chat_id
         if is_muted(userid, chat_id):
             return await event.edit(
-                "This user is already muted in this chat ~~lmfao sed rip~~"
+                "Pengguna ini telah dibungkam dalam obrolan ini ~~ lmfao sed rip~~"
             )
         try:
             mute(userid, chat_id)
